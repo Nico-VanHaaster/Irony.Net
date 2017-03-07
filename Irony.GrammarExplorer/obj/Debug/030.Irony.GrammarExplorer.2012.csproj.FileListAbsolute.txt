@@ -36,3 +36,6 @@ H:\ToolKits\irony_10d0c9c35284\Irony.GrammarExplorer\obj\Debug\Irony.GrammarExpl
 H:\ToolKits\irony_10d0c9c35284\Irony.GrammarExplorer\obj\Debug\030.Irony.GrammarExplorer.2012.csproj.GenerateResource.Cache
 D:\ToolKits\irony_10d0c9c35284\Irony.GrammarExplorer\bin\Debug\Irony.Samples.dll
 D:\ToolKits\irony_10d0c9c35284\Irony.GrammarExplorer\bin\Debug\Irony.Samples.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Net\Irony.GrammarExplorer\bin\Debug\Irony.GrammarExplorer.exe.config
+D:\ToolKits\irony_10d0c9c35284\Irony.Net\Irony.GrammarExplorer\obj\Debug\Irony.GrammarExplorer.exe
+D:\ToolKits\irony_10d0c9c35284\Irony.Net\Irony.GrammarExplorer\obj\Debug\Irony.GrammarExplorer.pdb
