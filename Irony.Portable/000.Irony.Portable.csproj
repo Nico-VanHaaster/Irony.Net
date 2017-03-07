@@ -267,6 +267,7 @@
     <None Include="..\Irony\irony.snk">
       <Link>irony.snk</Link>
     </None>
+    <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
