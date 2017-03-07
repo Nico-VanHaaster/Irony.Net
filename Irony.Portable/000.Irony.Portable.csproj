@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F79C3CF-A4C7-4EF6-8363-07BB30F5AFC1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Irony</RootNamespace>
+    <AssemblyName>Irony</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_PCL_</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Irony\Parsing\Data\Construction\GrammarDataBuilder.cs">
+      <Link>Parsing\Data\Construction\GrammarDataBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Data\Construction\LanguageDataBuilder.cs">
+      <Link>Parsing\Data\Construction\LanguageDataBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Data\Construction\ParserDataBuilder.cs">
+      <Link>Parsing\Data\Construction\ParserDataBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Data\Construction\ParserDataBuilder_HelperClasses.cs">
+      <Link>Parsing\Data\Construction\ParserDataBuilder_HelperClasses.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Data\Construction\ScannerDataBuilder.cs">
+      <Link>Parsing\Data\Construction\ScannerDataBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Data\GrammarData.cs">
+      <Link>Parsing\Data\GrammarData.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Data\LanguageData.cs">
+      <Link>Parsing\Data\LanguageData.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Data\ParserData.cs">
+      <Link>Parsing\Data\ParserData.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Data\ScannerData.cs">
+      <Link>Parsing\Data\ScannerData.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\BnfExpression.cs">
+      <Link>Parsing\Grammar\BnfExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\BnfTerm.cs">
+      <Link>Parsing\Grammar\BnfTerm.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\Grammar.cs">
+      <Link>Parsing\Grammar\Grammar.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\GrammarEnums.cs">
+      <Link>Parsing\Grammar\GrammarEnums.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\GrammarError.cs">
+      <Link>Parsing\Grammar\GrammarError.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\GrammarHint.cs">
+      <Link>Parsing\Grammar\GrammarHint.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\ICanRunSample.cs">
+      <Link>Parsing\Grammar\ICanRunSample.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\LanguageAttribute.cs">
+      <Link>Parsing\Grammar\LanguageAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\NonTerminal.cs">
+      <Link>Parsing\Grammar\NonTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Grammar\TermReportGroups.cs">
+      <Link>Parsing\Grammar\TermReportGroups.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\Parser.cs">
+      <Link>Parsing\Parser\Parser.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParserActions\AcceptParserAction.cs">
+      <Link>Parsing\Parser\ParserActions\AcceptParserAction.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParserActions\ErrorRecoveryParserAction.cs">
+      <Link>Parsing\Parser\ParserActions\ErrorRecoveryParserAction.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParserActions\ReduceParserActions.cs">
+      <Link>Parsing\Parser\ParserActions\ReduceParserActions.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParserActions\ShiftParserAction.cs">
+      <Link>Parsing\Parser\ParserActions\ShiftParserAction.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParserActions\_ParserAction.cs">
+      <Link>Parsing\Parser\ParserActions\_ParserAction.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParserDataPrinter.cs">
+      <Link>Parsing\Parser\ParserDataPrinter.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParserStack.cs">
+      <Link>Parsing\Parser\ParserStack.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParserTrace.cs">
+      <Link>Parsing\Parser\ParserTrace.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParseTree.cs">
+      <Link>Parsing\Parser\ParseTree.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParseTreeExtensions.cs">
+      <Link>Parsing\Parser\ParseTreeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParsingContext.cs">
+      <Link>Parsing\Parser\ParsingContext.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\ParsingEventArgs.cs">
+      <Link>Parsing\Parser\ParsingEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\SpecialActionsHints\ConditionalParserAction.cs">
+      <Link>Parsing\Parser\SpecialActionsHints\ConditionalParserAction.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\SpecialActionsHints\CustomActionHintAction.cs">
+      <Link>Parsing\Parser\SpecialActionsHints\CustomActionHintAction.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\SpecialActionsHints\ImpliedPrecedenceHint.cs">
+      <Link>Parsing\Parser\SpecialActionsHints\ImpliedPrecedenceHint.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\SpecialActionsHints\PrecedenceBasedParserAction.cs">
+      <Link>Parsing\Parser\SpecialActionsHints\PrecedenceBasedParserAction.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\SpecialActionsHints\PrecedenceHint.cs">
+      <Link>Parsing\Parser\SpecialActionsHints\PrecedenceHint.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\SpecialActionsHints\PreferredActionHint.cs">
+      <Link>Parsing\Parser\SpecialActionsHints\PreferredActionHint.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\SpecialActionsHints\TokenPreviewHint.cs">
+      <Link>Parsing\Parser\SpecialActionsHints\TokenPreviewHint.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Parser\SyntaxError.cs">
+      <Link>Parsing\Parser\SyntaxError.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Scanner\Scanner.cs">
+      <Link>Parsing\Scanner\Scanner.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Scanner\SourceLocation.cs">
+      <Link>Parsing\Scanner\SourceLocation.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Scanner\SourceStream.cs">
+      <Link>Parsing\Scanner\SourceStream.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Scanner\Token.cs">
+      <Link>Parsing\Scanner\Token.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Scanner\TokenEditorInfo.cs">
+      <Link>Parsing\Scanner\TokenEditorInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Scanner\_ISourceStream.cs">
+      <Link>Parsing\Scanner\_ISourceStream.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\CommentTerminal.cs">
+      <Link>Parsing\Terminals\CommentTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\CompoundTerminalBase.cs">
+      <Link>Parsing\Terminals\CompoundTerminalBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\ConstantTerminal.cs">
+      <Link>Parsing\Terminals\ConstantTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\CustomTerminal.cs">
+      <Link>Parsing\Terminals\CustomTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\DataLiteralBase.cs">
+      <Link>Parsing\Terminals\DataLiteralBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\DsvLiteral.cs">
+      <Link>Parsing\Terminals\DsvLiteral.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\FixedLengthLiteral.cs">
+      <Link>Parsing\Terminals\FixedLengthLiteral.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\FreeTextLiteral.cs">
+      <Link>Parsing\Terminals\FreeTextLiteral.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\IdentifierTerminal.cs">
+      <Link>Parsing\Terminals\IdentifierTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\ImpliedSymbolTerminal.cs">
+      <Link>Parsing\Terminals\ImpliedSymbolTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\KeyTerm.cs">
+      <Link>Parsing\Terminals\KeyTerm.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\LineContinuationTerminal.cs">
+      <Link>Parsing\Terminals\LineContinuationTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\NewLineTerminal.cs">
+      <Link>Parsing\Terminals\NewLineTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\NumberLiteral.cs">
+      <Link>Parsing\Terminals\NumberLiteral.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\QuotedValueLiteral.cs">
+      <Link>Parsing\Terminals\QuotedValueLiteral.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\RegExBasedTerminal.cs">
+      <Link>Parsing\Terminals\RegExBasedTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\RegExLiteral.cs">
+      <Link>Parsing\Terminals\RegExLiteral.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\StringLiteral.cs">
+      <Link>Parsing\Terminals\StringLiteral.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\TerminalFactory.cs">
+      <Link>Parsing\Terminals\TerminalFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\WikiTerminals\WikiBlockTerminal.cs">
+      <Link>Parsing\Terminals\WikiTerminals\WikiBlockTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\WikiTerminals\WikiTagTerminal.cs">
+      <Link>Parsing\Terminals\WikiTerminals\WikiTagTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\WikiTerminals\WikiTextTerminal.cs">
+      <Link>Parsing\Terminals\WikiTerminals\WikiTextTerminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\WikiTerminals\_WikiTerminalBase.cs">
+      <Link>Parsing\Terminals\WikiTerminals\_WikiTerminalBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\Terminals\_Terminal.cs">
+      <Link>Parsing\Terminals\_Terminal.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\TokenFilters\CodeOutlineFilter.cs">
+      <Link>Parsing\TokenFilters\CodeOutlineFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Parsing\TokenFilters\TokenFilter.cs">
+      <Link>Parsing\TokenFilters\TokenFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Utilities\Extensions.cs">
+      <Link>Utilities\Extensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Utilities\LogMessage.cs">
+      <Link>Utilities\LogMessage.cs</Link>
+    </Compile>
+    <Compile Include="..\Irony\Utilities\StringUtils.cs">
+      <Link>Utilities\StringUtils.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="TypeCode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Irony\irony.snk">
+      <Link>irony.snk</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="..\Irony\Parsing\Data\Construction\_about_parser_construction.txt">
+      <Link>Parsing\Data\Construction\_about_parser_construction.txt</Link>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

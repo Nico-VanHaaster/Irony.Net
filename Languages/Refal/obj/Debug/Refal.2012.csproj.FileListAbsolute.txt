@@ -1,0 +1,9 @@
+D:\ToolKits\irony_10d0c9c35284\Languages\Refal\bin\Debug\Refal.dll
+D:\ToolKits\irony_10d0c9c35284\Languages\Refal\bin\Debug\Refal.pdb
+D:\ToolKits\irony_10d0c9c35284\Languages\Refal\bin\Debug\Irony.dll
+D:\ToolKits\irony_10d0c9c35284\Languages\Refal\bin\Debug\Irony.Interpreter.dll
+D:\ToolKits\irony_10d0c9c35284\Languages\Refal\bin\Debug\Irony.Interpreter.pdb
+D:\ToolKits\irony_10d0c9c35284\Languages\Refal\bin\Debug\Irony.pdb
+D:\ToolKits\irony_10d0c9c35284\Languages\Refal\obj\Debug\Refal.2012.csprojResolveAssemblyReference.cache
+D:\ToolKits\irony_10d0c9c35284\Languages\Refal\obj\Debug\Refal.dll
+D:\ToolKits\irony_10d0c9c35284\Languages\Refal\obj\Debug\Refal.pdb

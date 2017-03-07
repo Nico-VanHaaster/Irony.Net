@@ -1,0 +1,14 @@
+D:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\bin\x86\Debug\Irony.Interpreter.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\bin\x86\Debug\Irony.Interpreter.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\bin\x86\Debug\Irony.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\bin\x86\Debug\Irony.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\obj\x86\Debug\015.Irony.Interpreter.2012.csprojResolveAssemblyReference.cache
+D:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\obj\x86\Debug\Irony.Interpreter.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\obj\x86\Debug\Irony.Interpreter.pdb
+H:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\bin\x86\Debug\Irony.Interpreter.dll
+H:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\bin\x86\Debug\Irony.Interpreter.pdb
+H:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\bin\x86\Debug\Irony.dll
+H:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\bin\x86\Debug\Irony.pdb
+H:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\obj\x86\Debug\015.Irony.Interpreter.2012.csprojResolveAssemblyReference.cache
+H:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\obj\x86\Debug\Irony.Interpreter.dll
+H:\ToolKits\irony_10d0c9c35284\Irony.Interpreter\obj\x86\Debug\Irony.Interpreter.pdb

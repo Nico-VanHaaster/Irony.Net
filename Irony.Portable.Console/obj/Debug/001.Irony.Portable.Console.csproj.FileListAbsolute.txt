@@ -1,0 +1,10 @@
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\bin\Debug\Irony.Portable.ConsoleOutput.exe.config
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\bin\Debug\Irony.Portable.ConsoleOutput.exe
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\bin\Debug\Irony.Portable.ConsoleOutput.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\bin\Debug\Irony.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\bin\Debug\Irony.Portable.Samples.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\bin\Debug\Irony.Portable.Samples.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\bin\Debug\Irony.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\obj\Debug\001.Irony.Portable.Console.csprojResolveAssemblyReference.cache
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\obj\Debug\Irony.Portable.ConsoleOutput.exe
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable.Console\obj\Debug\Irony.Portable.ConsoleOutput.pdb

@@ -1,0 +1,12 @@
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\bin\Debug\Irony.Samples.Console.exe.config
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\bin\Debug\Irony.Samples.Console.exe
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\bin\Debug\Irony.Samples.Console.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\bin\Debug\Irony.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\bin\Debug\Irony.Interpreter.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\bin\Debug\Irony.Samples.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\bin\Debug\Irony.Interpreter.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\bin\Debug\Irony.Samples.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\bin\Debug\Irony.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\obj\Debug\025.Irony.Samples.Console.2012.csprojResolveAssemblyReference.cache
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\obj\Debug\Irony.Samples.Console.exe
+D:\ToolKits\irony_10d0c9c35284\Irony.Samples.Console\obj\Debug\Irony.Samples.Console.pdb

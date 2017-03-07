@@ -1,0 +1,7 @@
+D:\ToolKits\irony_10d0c9c35284\002.Irony.Portable.Samples\bin\Debug\Irony.Portable.Samples.dll
+D:\ToolKits\irony_10d0c9c35284\002.Irony.Portable.Samples\bin\Debug\Irony.Portable.Samples.pdb
+D:\ToolKits\irony_10d0c9c35284\002.Irony.Portable.Samples\bin\Debug\Irony.dll
+D:\ToolKits\irony_10d0c9c35284\002.Irony.Portable.Samples\bin\Debug\Irony.pdb
+D:\ToolKits\irony_10d0c9c35284\002.Irony.Portable.Samples\obj\Debug\002.Irony.Portable.Samples.csprojResolveAssemblyReference.cache
+D:\ToolKits\irony_10d0c9c35284\002.Irony.Portable.Samples\obj\Debug\Irony.Portable.Samples.dll
+D:\ToolKits\irony_10d0c9c35284\002.Irony.Portable.Samples\obj\Debug\Irony.Portable.Samples.pdb

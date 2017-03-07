@@ -1,0 +1,13 @@
+D:\ToolKits\irony_10d0c9c35284\Irony\bin\x86\Debug\Irony.dll
+D:\ToolKits\irony_10d0c9c35284\Irony\bin\x86\Debug\Irony.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony\obj\x86\Debug\Irony.Resources.resources
+D:\ToolKits\irony_10d0c9c35284\Irony\obj\x86\Debug\010.Irony.2012.csproj.GenerateResource.Cache
+D:\ToolKits\irony_10d0c9c35284\Irony\obj\x86\Debug\Irony.dll
+D:\ToolKits\irony_10d0c9c35284\Irony\obj\x86\Debug\Irony.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony\obj\x86\Debug\010.Irony.2012.csprojResolveAssemblyReference.cache
+H:\ToolKits\irony_10d0c9c35284\Irony\bin\x86\Debug\Irony.dll
+H:\ToolKits\irony_10d0c9c35284\Irony\bin\x86\Debug\Irony.pdb
+H:\ToolKits\irony_10d0c9c35284\Irony\obj\x86\Debug\Irony.Resources.resources
+H:\ToolKits\irony_10d0c9c35284\Irony\obj\x86\Debug\010.Irony.2012.csproj.GenerateResource.Cache
+H:\ToolKits\irony_10d0c9c35284\Irony\obj\x86\Debug\Irony.dll
+H:\ToolKits\irony_10d0c9c35284\Irony\obj\x86\Debug\Irony.pdb

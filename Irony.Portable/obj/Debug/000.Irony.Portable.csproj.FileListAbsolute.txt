@@ -1,0 +1,4 @@
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable\bin\Debug\Irony.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable\bin\Debug\Irony.pdb
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable\obj\Debug\Irony.dll
+D:\ToolKits\irony_10d0c9c35284\Irony.Portable\obj\Debug\Irony.pdb
